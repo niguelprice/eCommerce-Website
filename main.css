@@ -1,0 +1,62 @@
+html{
+    box-sizing: border-box;
+}
+
+nav a {
+    padding: 1rem;
+    margin-left: 31rem;
+    text-decoration: black;
+    font-size: 2rem;
+}
+
+nav a img{
+    height: 1
+}
+
+nav ul{
+    list-style-type: none;
+    position: absolute;
+    top: 3rem;
+    left: 2rem;
+}
+
+nav li{
+    display: inline;
+    margin-right: 1.5rem;
+}
+
+.home img{
+    margin: 1rem auto;
+    width: 90%;
+}
+
+nav b{
+    top: 10rem;
+}
+
+
+nav c{
+    margin-left: 10rem;
+}
+
+.home{
+    position: relative;
+    text-align: center;
+    color: white
+}
+
+.top-left{
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    width: 15%;
+    font-size: 2rem;
+}
+
+.bottom-right{
+    position: absolute;
+    top: 370px;
+    right: 100px;
+    width: 15%;
+    font-size: 2rem;
+}
