@@ -17,13 +17,16 @@ nav ul{
     list-style-type: none;
     position: absolute;
     top: 3rem;
-    left: 2rem;
+    right: 70rem;
+
 }
 
 nav li{
     display: inline;
     margin-right: 1.5rem;
 }
+
+
 
 .home img{
     
