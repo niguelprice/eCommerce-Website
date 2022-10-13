@@ -4,7 +4,7 @@ html{
 
 nav a {
     padding: 1rem;
-    margin-left: 31rem;
+    margin-left: 32rem;
     text-decoration: black;
     font-size: 2rem;
 }
@@ -17,82 +17,98 @@ nav ul{
     list-style-type: none;
     position: absolute;
     top: 3rem;
-    right: 70rem;
-
+    left: -32rem;
 }
 
-nav li{
-    display: inline;
-    margin-right: 1.5rem;
-}
-
-
-
-.home img{
+nav ul li{ 
+    list-style-type: none;
+    width: 100px;
+    float: left;
+    margin-right: 1rem;
     
-    width: 100%;
-}
-
-nav b{
-    margin-left: 6rem;
-}
-
-
-nav c{
-    margin-left: 10rem;
-}
-
-.home{
-    position: relative;
-    text-align: center;
-    color: white
-}
-
-.top-left{
-    position: absolute;
-    top: 120px;
-    left: 100px;
-    width: 15%;
-    font-size: 2rem;
-}
-
-.bottom-right{
-    position: absolute;
-    top: 370px;
-    right: 100px;
-    width: 15%;
-    font-size: 2rem;
-}
-
-h1{
-    text-decoration: underline;
-}
-
-.About-Us{
+ }
+ 
+ nav ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 15px
+ }
+ 
+ 
+ .home img{
+     
+     width: 100%;
+ }
+ 
+ nav b{
+     margin-left: 6rem;
+ }
+ 
+ 
+ nav c{
+     margin-left: 10rem;
+ }
+ 
+ .home{
+     position: relative;
+     text-align: center;
+     color: white
+ }
+ 
+ .top-left{
+     position: absolute;
+     top: 120px;
+     left: 100px;
+     width: 15%;
+     font-size: 2rem;
+ }
+ 
+ .bottom-right{
+     position: absolute;
+     top: 370px;
+     right: 100px;
+     width: 15%;
+     font-size: 2rem;
+ }
+ 
+ h1{
+     text-decoration: underline;
+ }
+ 
+ .About-Us{
     float: left;
     width: 50%;
 }
 
 
-.h2:after{
-    content: "";
-    display: table;
-    clear:both
-}
-
-.column{
-    float: left;
-    width: 33.33%;
-}
-
-.row:after {
-    content: "";
-    display: flex;
-    clear: both;
+h2 a{
     
 }
 
-.column img{
-    height: 100px;
-    width: 100px;
+h2 b{
+    
 }
+
+h2 p{
+    
+}
+
+.column{
+    display: grid;
+    width: 33%;
+    
+}
+
+ .row:after {
+    content: "";
+    display: flex;
+    clear: both;
+ }
+
+ 
+ .column img{
+     height: 100px;
+     width: 100px;
+ }
+ 
