@@ -82,21 +82,29 @@ nav ul li{
 }
 
 
-h2 a{
-    
+.left-pic{
+    display: grid;
+    width: 33%;
+    float: left;
 }
 
-h2 b{
-    
+.right-pic{
+    display: grid;
+    width: 33%;
+    float: right;
 }
 
-h2 p{
-    
+
+h2 .row:after{
+    content: "";
+    display: flex;
+    clear: both;
 }
 
 .column{
     display: grid;
     width: 33%;
+    float: left;
     
 }
 
@@ -108,7 +116,13 @@ h2 p{
 
  
  .column img{
-     height: 100px;
-     width: 100px;
+     height: 150px;
+     width: 150px;
  }
+ 
+
+ footer{
+    background-color:rgb(191, 118, 49);
+ }
+
  
